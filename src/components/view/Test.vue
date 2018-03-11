@@ -5,15 +5,18 @@
         {{ title.title }}
       </li>
     </ul>
-    <img src="../../assets/logo.png">
+    <!-- <img src="../../assets/logo.png"> -->
+    <div v-html="markdown"></div>
   </div>
 </template>
 
 <script>
+var marked = require('marked');
 export default {
   data() {
     return {
-      titleList: []
+      titleList: [],
+      markdown: marked('![勒索信息截图](http://qcdn.hinotos.com/ransom.png)')
     }
   },
   mounted: function(){
