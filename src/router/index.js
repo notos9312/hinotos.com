@@ -2,6 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Overview from '@/components/view/Overview'
+import About from '@/components/view/About'
+import Blog from '@/components/view/Blog'
 
 import Test from '@/components/view/Test'
 
@@ -20,8 +22,22 @@ export default new Router({
       component: Test
     },
     {
-      path: '/*',
+      path: '/about',
+      name: 'About',
+      component: About
+    },
+    {
+      path: '/blog',
+      name: 'Blog',
+      component: Blog
+    },
+    {
+      path: '/home',
       component: Overview
-    }
+    },
+    {
+      path: '/*',
+      redirect: '/home'
+    },
   ]
 })

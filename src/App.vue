@@ -18,7 +18,26 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  margin: 0 auto;
+  position: relative;
+}
+html, body, #app {
+  min-height: 100%;
+}
 
-  /* position: relative; */
+/* body {
+  margin-top: -8px;
+  margin-bottom: -8px;
+} */
+
+@media (min-width:700px) {
+  #app {
+    width: 640px;
+  }
+}
+@media (max-width:699px) {
+  #app {
+    width: 95%;
+  }
 }
 </style>
