@@ -24,7 +24,7 @@ export default {
 #overview {
   height: 300px;
   margin: auto;
-  margin-top: 200px;
+  margin-top: 30%;
   /* position: absolute;
   top: 0;
   bottom: 0;
