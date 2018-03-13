@@ -7,7 +7,7 @@
 <style scoped>
 #blogHeader {
   width: 100%;
-  height: 30px;
+  height: 13%;
   border-bottom: 1px solid #aaa;
   text-align: left;
   position: absolute;

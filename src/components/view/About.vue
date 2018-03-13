@@ -2,7 +2,7 @@
   <div id="about">
     <blog-header></blog-header>
     <div id="about-container">
-      <h1>This is About.</h1>
+      <h1>About</h1>
     </div>
     <!-- <blog-footer></blog-footer> -->
   </div>
@@ -24,7 +24,7 @@ export default {
   height: 100%;
 }
 #about-container {
-  height: 600px;
+  padding: 8% 0;
 }
 </style>
 

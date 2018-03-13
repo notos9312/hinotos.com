@@ -2,28 +2,7 @@
   <div id="blog">
     <blog-header></blog-header>
     <div id="blog-container">
-      <h1>this is Blog</h1>
-      <h1>this is Blog</h1>
-      <h1>this is Blog</h1>
-      <!-- <h1>this is Blog</h1>
-      <h1>this is Blog</h1>
-      <h1>this is Blog</h1>
-      <h1>this is Blog</h1>
-      <h1>this is Blog</h1>
-      <h1>this is Blog</h1>
-      <h1>this is Blog</h1>
-      <h1>this is Blog</h1>
-      <h1>this is Blog</h1>
-      <h1>this is Blog</h1>
-      <h1>this is Blog</h1>
-      <h1>this is Blog</h1>
-      <h1>this is Blog</h1>
-      <h1>this is Blog</h1>
-      <h1>this is Blog</h1>
-      <h1>this is Blog</h1>
-      <h1>this is Blog</h1>
-      <h1>this is Blog</h1>
-      <h1>this is Blog</h1> -->
+      <h1>Blog</h1>
     </div>
     <!-- <blog-footer></blog-footer> -->
   </div>
@@ -50,7 +29,7 @@ export default {
     bottom: 0%;
   } */
   #blog-container {
-    padding: 10% 0;
+    padding: 8% 0;
   }
 </style>
 
