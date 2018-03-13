@@ -4,7 +4,7 @@
     <h2>~南风有信~</h2>
     <!-- <hr> -->
     <div class="line"><span></span></div>
-    <router-link to="/blog">Blog</router-link>
+    <router-link class="blogToAbout" to="/blog">Blog</router-link>
     <p>Guangzhou, China</p>
   </div>
 </template>

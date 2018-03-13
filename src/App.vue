@@ -24,7 +24,9 @@ export default {
 html, body, #app {
   min-height: 100%;
 }
-
+img {
+  max-width: 100%;
+}
 /* body {
   margin-top: -8px;
   margin-bottom: -8px;
@@ -39,5 +41,11 @@ html, body, #app {
   #app {
     width: 95%;
   }
+}
+blockquote {
+    border-left: 2px solid #009688;
+    font-style: italic;
+    padding-left: 20px;
+    margin: 0;
 }
 </style>
