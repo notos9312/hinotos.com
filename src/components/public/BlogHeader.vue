@@ -27,6 +27,7 @@
 }
 .toHome:visited, .toBlog:visited {
   text-decoration: none;
+  color: #aaa;
 }
 .toHome {
   left: 0;
