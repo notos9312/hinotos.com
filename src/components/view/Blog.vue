@@ -25,12 +25,23 @@ export default {
   #blog {
     min-height: 100%;
   }
-  /* blog-footer {
-    position: absolute;
-    bottom: 0%;
-  } */
   #blog-container {
     padding: 8% 0;
   }
 </style>
+
+<style>
+h3 a{
+  text-decoration: none;
+  color:#333;
+}
+h3 a:hover {
+  text-decoration: underline;
+  color: #42b983;
+}
+h3 a:visited {
+  text-decoration: none;
+}
+</style>
+
 

@@ -23,6 +23,10 @@
 }
 .toHome:hover, .toBlog:hover {
   color: #42b983;
+  /* text-decoration: underline; */
+}
+.toHome:visited, .toBlog:visited {
+  text-decoration: none;
 }
 .toHome {
   left: 0;

@@ -2,7 +2,6 @@
   <div id="overview">
     <img src="http://qcdn.hinotos.com/avatar.png" alt="" id="avator" @click="toAbout()">
     <h2>~南风有信~</h2>
-    <!-- <hr> -->
     <div class="line"><span></span></div>
     <router-link class="blogToAbout" to="/blog">Blog</router-link>
     <p>Guangzhou, China</p>
@@ -53,6 +52,7 @@ a, .router-link-active {
 }
 a:hover {
   color: #42b983;
+  text-decoration: underline;
 }
 </style>
 

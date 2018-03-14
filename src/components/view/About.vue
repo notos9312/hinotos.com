@@ -3,7 +3,7 @@
     <blog-header></blog-header>
     <div id="about-container">
       <h1>About</h1>
-      <div id="aboutContent" v-html="compiledMarkdown"></div>
+      <div id="aboutContent" class="md-content" v-html="compiledMarkdown"></div>
     </div>
     <!-- <blog-footer></blog-footer> -->
   </div>
@@ -12,7 +12,7 @@
 <script>
 let marked = require("marked");
 let hljs = require("highlight.js");
-import "highlight.js/styles/default.css";
+import "highlight.js/styles/atelier-savanna-dark.css";
 
 marked.setOptions({
   renderer: new marked.Renderer(),
@@ -77,37 +77,5 @@ export default {
 }
 #about-container {
   padding: 8% 0;
-}
-#aboutContent {
-  text-align: left;
-}
-/* #aboutContent p img {
-  margin: 0 auto;
-  display: block;
-} */
-</style>
-
-<style>
-#aboutContent p img {
-  margin: 0 auto;
-  display: block;
-}
-/* #aboutContent p {
-  font-size: 18px;
-  font-family: Manuale, Source Han Serif SC, Noto Serif CJK SC, Songti SC, serif;
-} */
-ul {
-    list-style-type: square;
-}
-li {
-  margin-left: -24px;
-}
-a {
-  text-decoration: none;
-  color: #3d464d;
-  cursor: pointer;
-}
-a:hover {
-  color: #42b983;
 }
 </style>
