@@ -1,7 +1,7 @@
 # hinotos.com
 
 个人博客网站: [南风有信](http://hinotos.com) 的源码。<br>
-The source code of personal blog: [hinotos](http://hinotos.com).
+The source code of my personal blog: [hinotos](http://hinotos.com).
 <br><br>
 很抱歉的是，目前仅能提供About页面。<br>
 I'm so sorry that the about page is the only page I can provide for now。
