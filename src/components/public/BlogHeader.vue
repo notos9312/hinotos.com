@@ -16,15 +16,22 @@
   position: absolute;
   top: 5px;
 }
+
 .toHome, .toBlog, .toAbout {
   text-decoration: none;
   color: #aaa;
   font-size: 18px;
   /* position: absolute; */
 }
+.toHome {
+  color: #3d464d;
+}
 .toHome:visited, .toBlog:visited, .toAbout:visited {
   text-decoration: none;
   color: #aaa;
+}
+.toHome:visited {
+  color: #3d464d;
 }
 .toHome:hover {
   color: #42b983;
