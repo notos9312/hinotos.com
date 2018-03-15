@@ -17,12 +17,15 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #3d464d;
   margin: 0 auto;
   position: relative;
 }
 html, body, #app {
   min-height: 100%;
+}
+html {
+  font: 87.5%/1.7778 Open Sans,Source Han Sans SC,Noto Sans CJK SC,PingFang SC,Hiragino Sans GB,WenQuanYi Micro Hei,Microsoft Yahei,sans-serif;
 }
 img {
   max-width: 100%;

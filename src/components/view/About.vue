@@ -36,8 +36,7 @@ import BlogHeader from "@/components/public/BlogHeader";
 import BlogFooter from "@/components/public/BlogFooter";
 export default {
   components: {
-    BlogHeader,
-    BlogFooter
+    BlogHeader
   },
   mounted: function() {
     // hljs.highlightCode();
