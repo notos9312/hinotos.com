@@ -3,8 +3,5 @@
 个人博客网站: [南风有信](http://hinotos.com) 的源码。<br>
 The source code of my personal blog: [hinotos](http://hinotos.com).
 <br><br>
-很抱歉的是，目前仅能提供About页面。<br>
-I'm so sorry that the about page is the only page I can provide for now。
-<br><br>
-点击的首页的头像，或者在Blog页面点击About链接即可访问About页面。<br>
-To click the avator in home page or the link in blog page, you can access the about page.
+目前还存在多处样式上的不足，会努力改进的！<br>
+At present, there are still many shortcomings in the style, and I will try to improve them as soon as possible.
