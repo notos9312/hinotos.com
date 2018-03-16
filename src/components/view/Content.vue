@@ -42,7 +42,8 @@ export default {
   },
   data(){
     return {
-      contentObj: {title:'', content:''}
+      contentObj: {title:'', content:''},
+      markdown: ''
     }
   },
   methods: {
@@ -64,11 +65,22 @@ export default {
   },
   computed: {
     compiledMarkdown() {
-      return marked(this.contentObj.content || "", {
+      this.markdown =  marked(this.contentObj.content || "", {
         sanitize: true
       });
+      return this.markdown;
     }
   },
+  watch: {
+    markdown: function(){
+      var links = document.links;
+      for(var i=0; i<links.length; i++){
+        if(links[i].hostname != window.location.hostname){
+          links[i].target = '_blank';
+        }
+      }
+    }
+  }
 }
 </script>
 

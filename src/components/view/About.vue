@@ -3,7 +3,7 @@
     <blog-header></blog-header>
     <div id="about-container">
       <h1>About</h1>
-      <div id="aboutContent" class="md-content" v-html="compiledMarkdown"></div>
+      <div ref="testa" id="aboutContent" class="md-content" v-html="compiledMarkdown"></div>
     </div>
     <!-- <blog-footer></blog-footer> -->
   </div>
@@ -45,14 +45,16 @@ export default {
   data() {
     return {
       titleList: [],
-      text: ""
+      text: "",
+      markdown: ""
     };
   },
   computed: {
     compiledMarkdown() {
-      return marked(this.text || "", {
+      this.markdown =  marked(this.text || "", {
         sanitize: true
       });
+      return this.markdown;
     }
   },
   methods: {
@@ -60,11 +62,20 @@ export default {
       var _this = this;
       this.$http.get("http://hinotos.com:2333/api/getProfile").then(
         res => {
-          // console.log(res.body);
           var sucData = res.body;
           _this.text = sucData.profile;
         }
       );
+    }
+  },
+  watch: {
+    markdown: function(){
+      var links = document.links;
+      for(var i=0; i<links.length; i++){
+        if(links[i].hostname != window.location.hostname){
+          links[i].target = '_blank';
+        }
+      }
     }
   }
 };
