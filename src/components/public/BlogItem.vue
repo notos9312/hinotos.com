@@ -1,7 +1,7 @@
 <template>
   <li id="blogItem" @click="toContent(titleObj.objectId)">
-    <span id="title">{{titleObj.title}}</span>
-    <span id="createTime">{{getFullDate(titleObj.createTime)}}</span>
+    <span class="title">{{titleObj.title}}</span>
+    <span class="createTime">{{getFullDate(titleObj.createTime)}}</span>
   </li>
 </template>
 
@@ -28,32 +28,40 @@ export default {
 
 <style scoped>
 #blogItem{
-  height: 25px;
+  /* height: 25px; */
   padding: 5px;
   margin: 15px 0;
   font-size: 18px;
-  /* border-bottom: 1px solid #eee; */
   cursor: pointer;
-}
-#title{
   float: left;
+  width: 100%;
+  text-align: left;
 }
-#createTime{
+#blogItem:hover .title{
+  color: #42b983;
+}
+.createTime{
   float: right;
   color: #9ea3a6;
   font-family: Manuale,Source Han Serif SC,Noto Serif CJK SC,Songti SC,serif;
   font-style: italic;
 }
-/* #blogItem a{
-  text-decoration: none;
-  color:#333;
+@media (min-width:500px) {
+  .createTime{
+    float: right;
+  }
 }
-#blogItem a:hover {
-  text-decoration: underline;
+@media (max-width:499px) {
+  .createTime{
+    float: none;
+    display: block;
+  }
 }
-#blogItem a:visited {
-  text-decoration: none;
-} */
 </style>
+
+<style>
+
+</style>
+
 
 
