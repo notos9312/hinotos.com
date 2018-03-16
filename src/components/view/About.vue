@@ -75,6 +75,6 @@ export default {
   height: 100%;
 }
 #about-container {
-  padding: 8% 0;
+  padding: 10% 0;
 }
 </style>

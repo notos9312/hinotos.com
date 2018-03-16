@@ -29,11 +29,10 @@ export default {
 <style scoped>
 #blogItem{
   /* height: 25px; */
-  padding: 5px;
-  margin: 15px 0;
+  margin: 10px 0;
   font-size: 18px;
   cursor: pointer;
-  float: left;
+  /* float: left; */
   width: 100%;
   text-align: left;
 }

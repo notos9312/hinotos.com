@@ -51,12 +51,15 @@ export default {
     min-height: 100%;
   }
   #blog-container {
-    padding: 8% 0;
+    padding: 10% 0;
   }
   ul,li {
     list-style: none;
     padding: 0;
     margin: 0;
+  }
+  #titlesList {
+    margin-top: 10%;
   }
 </style>
 
