@@ -74,7 +74,7 @@ export default {
 
 <style scoped>
 #content-container{
-  padding: 8% 0;
+  padding: 10% 0;
 }
 </style>
 
