@@ -34,6 +34,16 @@ export default {
   width: 100px;
   height: 100px;
   border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border: 1px solid #fff;
+  /* cursor: pointer; */
+}
+#avator:hover {
+  /* box-shadow: 0px 0px 1px #42b983;
+  -moz-box-shadow: 0px 0px 1px #42b983;
+  -webkit-box-shadow: 0px 0px 1px #42b983; */
+  border: 1px solid #42b983;
   cursor: pointer;
 }
 .line{
