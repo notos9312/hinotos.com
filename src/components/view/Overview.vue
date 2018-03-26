@@ -3,7 +3,7 @@
     <img src="http://qcdn.hinotos.com/avatar.png" alt="" id="avator" @click="toAbout()">
     <h2>~南风有信~</h2>
     <div class="line"><span></span></div>
-    <router-link class="blogToAbout" to="/blog">Blog</router-link>
+    <router-link class="homeToBlog" to="/blog">Blog</router-link>
     <p>Guangzhou, China</p>
   </div>
 </template>
@@ -57,6 +57,7 @@ export default {
   background: #fff;
 }
 a, .router-link-active {
+  font-size: 18px;
   text-decoration: none;
   color:#333;
 }
