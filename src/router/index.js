@@ -25,20 +25,32 @@ export default new Router({
     {
       path: '/about',
       name: 'About',
-      component: About
+      component: About,
+      meta:{
+        title: 'About · NotFamous, Notos'
+      }
     },
     {
       path: '/blog',
       name: 'Blog',
-      component: Blog
+      component: Blog,
+      meta:{
+        title: 'Blog · NotFamous, Notos'
+      }
     },
     {
       path: '/home',
-      component: Overview
+      component: Overview,
+      meta:{
+        title: 'hinotos · NotFamous, Notos'
+      }
     },
     {
       path: '/content',
-      component: Content
+      component: Content,
+      // meta:{
+      //   title: 'About · NotFamous, Notos'
+      // }
     },
     {
       path: '/*',

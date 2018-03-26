@@ -43,7 +43,8 @@ export default {
   data(){
     return {
       contentObj: {title:'', content:''},
-      markdown: ''
+      markdown: '',
+      title: ''
     }
   },
   methods: {
@@ -56,6 +57,7 @@ export default {
         .then(
           res => {
             this.contentObj = res.body;
+            this.title = this.contentObj.title;
           },
           err => {
             console.log(err.status);
@@ -79,6 +81,9 @@ export default {
           links[i].target = '_blank';
         }
       }
+    },
+    title: function(){
+      document.title = this.title+' · NotFamous, Notos';
     }
   }
 }
