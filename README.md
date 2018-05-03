@@ -9,4 +9,4 @@ At present, there are still many shortcomings in the style, and I will try to im
 ## 更新日志
 2018-05-03：
 <br>
-1、<M>文章筛选的方式改为由后台控制的每个Title的bSeen属性，true为前端可见，否则不可见
+【M】1、文章筛选的方式改为由后台控制的每个Title的bSeen属性，true为前端可见，否则不可见
