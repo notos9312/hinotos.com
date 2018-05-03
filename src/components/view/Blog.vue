@@ -22,10 +22,6 @@ export default {
   data() {
     return {
       titleData: [],
-      filterTitleArray:[
-        "5a5108ef3d0471bbf05c8827", //MongoDB安装及配置
-        "5a787bc19be7073c15e34e06", //挂载数据盘到Ubuntu服务器
-      ],
     }
   },
   mounted: function(){
@@ -47,7 +43,7 @@ export default {
       });
     },
     filterTitleObjFunc: function(titleObj){
-      return (this.filterTitleArray.indexOf(titleObj.objectId) == -1);
+      return titleObj.bSeen;
     }
   }
 }
