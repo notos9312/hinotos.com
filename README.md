@@ -13,4 +13,4 @@ At present, there are still many shortcomings in the style, and I will try to im
 <br><br>
 2018-05-22：
 <br>
-> 【M】1、把代码中绝对路径类型的api请求地址改为相对路径的类型
+【M】1、把代码中绝对路径类型的api请求地址改为相对路径的类型
