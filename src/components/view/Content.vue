@@ -51,7 +51,7 @@ export default {
     getTheContent: function(data) {
       var _this = this;
       this.$http
-        .post("http://hinotos.com:2333/api/getTheContent", data, {
+        .post("/api/getTheContent", data, {
           emulateJSON: true
         })
         .then(

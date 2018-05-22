@@ -4,7 +4,7 @@
     <div id="blog-container">
       <h1>Blog</h1>
       <ul id="titlesList">
-        <blog-item v-for="title in titleData" :titleObj="title"></blog-item>
+        <blog-item v-for="title in titleData" :titleObj="title" :key="title.objectId"></blog-item>
       </ul>
     </div>
     <!-- <blog-footer></blog-footer> -->
@@ -31,7 +31,7 @@ export default {
     getContents: function(type) {
       var _this = this;
       this.$http.post(
-        "http://hinotos.com:2333/api/getContents",
+        "/api/getContents",
         { contentType: type },
         { emulateJSON: true }
       ).then(

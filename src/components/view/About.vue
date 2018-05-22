@@ -60,7 +60,7 @@ export default {
   methods: {
     getProfile: function() {
       var _this = this;
-      this.$http.get("http://hinotos.com:2333/api/getProfile").then(
+      this.$http.get("/api/getProfile").then(
         res => {
           var sucData = res.body;
           _this.text = sucData.profile;
