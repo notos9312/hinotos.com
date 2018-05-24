@@ -15,6 +15,6 @@ At present, there are still many shortcomings in the style, and I will try to im
 
 ### 2018-05-24：
 > 【M】1、引入axios，并用axios替换vue-resource<br>
-【D】npm uninstall vue-resource
-【M】增加开发环境下的proxyTable
+【D】2、npm uninstall vue-resource<br>
+【M】3、增加开发环境下的proxyTable
 
