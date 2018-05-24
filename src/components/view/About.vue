@@ -60,9 +60,9 @@ export default {
   methods: {
     getProfile: function() {
       var _this = this;
-      this.$http.get("/api/getProfile").then(
+      this.$axios.get("/api/getProfile").then(
         res => {
-          var sucData = res.body;
+          var sucData = res.data;
           _this.text = sucData.profile;
         }
       );

@@ -30,16 +30,11 @@ export default {
   methods: {
     getContents: function(type) {
       var _this = this;
-      this.$http.post(
-        "/api/getContents",
-        { contentType: type },
-        { emulateJSON: true }
-      ).then(
-        res => {
-            this.titleData = res.body.sort((i,j)=>{return j.createTime - i.createTime}).filter(this.filterTitleObjFunc);
-        },
-        err => {
-          console.log(err.status);
+      this.$axios.post("/api/getContents", { contentType: type })
+      .then(res => {
+            this.titleData = res.data.sort((i,j)=>{return j.createTime - i.createTime}).filter(this.filterTitleObjFunc);
+        }).catch(err => {
+          console.log(err);
       });
     },
     filterTitleObjFunc: function(titleObj){

@@ -50,19 +50,14 @@ export default {
   methods: {
     getTheContent: function(data) {
       var _this = this;
-      this.$http
-        .post("/api/getTheContent", data, {
-          emulateJSON: true
-        })
+      this.$axios.post("/api/getTheContent", data)
         .then(
           res => {
-            this.contentObj = res.body;
+            this.contentObj = res.data;
             this.title = this.contentObj.title;
-          },
-          err => {
-            console.log(err.status);
-          }
-        );
+          }).catch(err => {
+            console.log(err);
+          });
     }
   },
   computed: {
