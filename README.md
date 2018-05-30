@@ -8,13 +8,13 @@ At present, there are still many shortcomings in the style, and I will try to im
 <br><br>
 ## 更新日志
 ### 2018-05-03：
-> 【M】1、文章筛选的方式改为由后台控制的每个Title的bSeen属性，true为前端可见，否则不可见
+> * 【M】文章筛选的方式改为由后台控制的每个Title的bSeen属性，true为前端可见，否则不可见
 
 ### 2018-05-22：
-> 【M】1、把代码中绝对路径类型的api请求地址改为相对路径的类型
+> * 【M】把代码中绝对路径类型的api请求地址改为相对路径的类型
 
 ### 2018-05-24：
-> 【M】1、引入axios，并用axios替换vue-resource<br>
-【D】2、npm uninstall vue-resource<br>
-【M】3、增加开发环境下的proxyTable
+> * 【M】1、引入axios，并用axios替换vue-resource
+> * 【D】2、npm uninstall vue-resource
+> * 【M】3、增加开发环境下的proxyTable
 
