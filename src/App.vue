@@ -73,7 +73,7 @@ img {
   font-family: Menlo,Monaco,Consolas,Courier New,monospace;
 }
 .md-content code {
-  padding: 2px 4px;
+  padding: 2px 0;
   background-color: #f6f6f6;
   border: none;
   color: #657b83;

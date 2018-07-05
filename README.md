@@ -18,3 +18,5 @@ At present, there are still many shortcomings in the style, and I will try to im
 > * 【D】2、npm uninstall vue-resource
 > * 【M】3、增加开发环境下的proxyTable
 
+### 2018-07-05:
+> * 【M】1、修改code标签的样式，将左右padding设为0
