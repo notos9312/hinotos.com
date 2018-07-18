@@ -1,6 +1,6 @@
 <template>
   <div id="overview">
-    <img src="http://qcdn.hinotos.com/avatar.png" alt="" id="avator" @click="toAbout()">
+    <img src="http://blogpic-1252022033.file.myqcloud.com/avatar.png" alt="" id="avator" @click="toAbout()">
     <h2>~南风有信~</h2>
     <div class="line"><span></span></div>
     <router-link class="homeToBlog" to="/blog">Blog</router-link>
